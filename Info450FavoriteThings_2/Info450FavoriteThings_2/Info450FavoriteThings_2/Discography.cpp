@@ -61,7 +61,7 @@ void Discography::getDiscographyInput() {
 	cout << "enter an Album Name " << endl;
 	getline(cin, album_Name, '\n');
 }
-ostream& operator<<(ostream &output, Discography &i)
+ostream& operator<<(ostream& output, Discography& i)
 {
 	output << "Discography: " << i.identifier << endl;
 	output << "|" << i.artist << "|" << i.quantity << "|" << i.release_Year << "|" << i.album_Name << endl;
